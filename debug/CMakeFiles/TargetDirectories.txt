@@ -1,0 +1,3 @@
+/root/DataBase4/debug/CMakeFiles/rebuild_cache.dir
+/root/DataBase4/debug/CMakeFiles/microDBMS.dir
+/root/DataBase4/debug/CMakeFiles/edit_cache.dir
