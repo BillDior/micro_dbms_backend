@@ -1,6 +1,6 @@
-#line 2 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/lex.yy.c"
+#line 2 "/root/DataBase4/cmake-build-debug/lex.yy.c"
 
-#line 4 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/lex.yy.c"
+#line 4 "/root/DataBase4/cmake-build-debug/lex.yy.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -483,9 +483,9 @@ char *yytext;
 static int get_id(char *s);   /* defined in scanhelp.c */
 static char *get_qstring(char *qstring, int len);
 
-#line 487 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/lex.yy.c"
+#line 487 "/root/DataBase4/cmake-build-debug/lex.yy.c"
 
-#line 489 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/lex.yy.c"
+#line 489 "/root/DataBase4/cmake-build-debug/lex.yy.c"
 
 #define INITIAL 0
 #define comment 1
@@ -706,7 +706,7 @@ YY_DECL
 	{
 #line 26 "PARSER/scan.l"
 
-#line 710 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/lex.yy.c"
+#line 710 "/root/DataBase4/cmake-build-debug/lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -897,7 +897,7 @@ YY_RULE_SETUP
 #line 55 "PARSER/scan.l"
 ECHO;
 	YY_BREAK
-#line 901 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/lex.yy.c"
+#line 901 "/root/DataBase4/cmake-build-debug/lex.yy.c"
 
 	case YY_END_OF_BUFFER:
 		{

@@ -113,7 +113,7 @@ union YYSTYPE
     char *sval;
     NODE *n;
 
-#line 117 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.h"
+#line 117 "/root/DataBase4/cmake-build-debug/y.tab.h"
 
 };
 typedef union YYSTYPE YYSTYPE;

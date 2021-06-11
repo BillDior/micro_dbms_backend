@@ -136,7 +136,7 @@ SM_Manager *pSmm;          // SM component manager
 QL_Manager *pQlm;          // QL component manager
 
 
-#line 140 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 140 "/root/DataBase4/cmake-build-debug/y.tab.cc"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -248,7 +248,7 @@ union YYSTYPE
     char *sval;
     NODE *n;
 
-#line 252 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 252 "/root/DataBase4/cmake-build-debug/y.tab.cc"
 
 };
 typedef union YYSTYPE YYSTYPE;
@@ -1549,7 +1549,7 @@ yyreduce:
       parse_tree = (yyvsp[-1].n);
       YYACCEPT;
    }
-#line 1553 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1553 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 3:
@@ -1563,7 +1563,7 @@ yyreduce:
       parse_tree = NULL;
       YYACCEPT;
    }
-#line 1567 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1567 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 4:
@@ -1573,7 +1573,7 @@ yyreduce:
       parse_tree = NULL;
       YYACCEPT;
    }
-#line 1577 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1577 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 5:
@@ -1583,7 +1583,7 @@ yyreduce:
       bExit = 1;
       YYACCEPT;
    }
-#line 1587 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1587 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 9:
@@ -1591,7 +1591,7 @@ yyreduce:
    {
       (yyval.n) = NULL;
    }
-#line 1595 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1595 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 31:
@@ -1601,7 +1601,7 @@ yyreduce:
       cout << "Query plan display turned on.\n";
       (yyval.n) = NULL;
    }
-#line 1605 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1605 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 32:
@@ -1611,7 +1611,7 @@ yyreduce:
       cout << "Query plan display turned off.\n";
       (yyval.n) = NULL;
    }
-#line 1615 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1615 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 33:
@@ -1623,7 +1623,7 @@ yyreduce:
          cout << "Everything kicked out of Buffer!\n";
       (yyval.n) = NULL;
    }
-#line 1627 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1627 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 34:
@@ -1632,7 +1632,7 @@ yyreduce:
       pPfm->PrintBuffer();
       (yyval.n) = NULL;
    }
-#line 1636 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1636 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 35:
@@ -1641,7 +1641,7 @@ yyreduce:
       pPfm->ResizeBuffer((yyvsp[0].ival));
       (yyval.n) = NULL;
    }
-#line 1645 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1645 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 36:
@@ -1656,7 +1656,7 @@ yyreduce:
       #endif
       (yyval.n) = NULL;
    }
-#line 1660 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1660 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 37:
@@ -1670,7 +1670,7 @@ yyreduce:
       #endif
       (yyval.n) = NULL;
    }
-#line 1674 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1674 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 38:
@@ -1678,7 +1678,7 @@ yyreduce:
    {
       (yyval.n) = show_dbs_node();
    }
-#line 1682 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1682 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 39:
@@ -1686,7 +1686,7 @@ yyreduce:
    {
       (yyval.n) = create_db_node((yyvsp[0].sval));
    }
-#line 1690 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1690 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 40:
@@ -1694,7 +1694,7 @@ yyreduce:
    {
       (yyval.n) = drop_db_node((yyvsp[0].sval));
    }
-#line 1698 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1698 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 41:
@@ -1702,7 +1702,7 @@ yyreduce:
    {
       (yyval.n) = use_db_node((yyvsp[0].sval));
    }
-#line 1706 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1706 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 42:
@@ -1710,7 +1710,7 @@ yyreduce:
    {
       (yyval.n) = show_tables_node();
    }
-#line 1714 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1714 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 43:
@@ -1718,7 +1718,7 @@ yyreduce:
    {
       (yyval.n) = create_table_node((yyvsp[-3].sval), (yyvsp[-1].n));
    }
-#line 1722 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1722 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 44:
@@ -1726,7 +1726,7 @@ yyreduce:
    {
       (yyval.n) = create_index_node((yyvsp[-3].sval), (yyvsp[-1].sval));
    }
-#line 1730 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1730 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 45:
@@ -1734,7 +1734,7 @@ yyreduce:
    {
       (yyval.n) = drop_table_node((yyvsp[0].sval));
    }
-#line 1738 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1738 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 46:
@@ -1742,7 +1742,7 @@ yyreduce:
    {
       (yyval.n) = drop_index_node((yyvsp[-3].sval), (yyvsp[-1].sval));
    }
-#line 1746 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1746 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 47:
@@ -1750,7 +1750,7 @@ yyreduce:
    {
       (yyval.n) = load_node((yyvsp[-3].sval), (yyvsp[-1].sval));
    }
-#line 1754 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1754 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 48:
@@ -1758,7 +1758,7 @@ yyreduce:
    {
       (yyval.n) = set_node((yyvsp[-2].sval), (yyvsp[0].sval));
    }
-#line 1762 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1762 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 49:
@@ -1766,7 +1766,7 @@ yyreduce:
    {
       (yyval.n) = help_node((yyvsp[0].sval));
    }
-#line 1770 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1770 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 50:
@@ -1774,7 +1774,7 @@ yyreduce:
    {
       (yyval.n) = print_node((yyvsp[0].sval));
    }
-#line 1778 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1778 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 51:
@@ -1783,7 +1783,7 @@ yyreduce:
       (yyval.n) = NULL;
       bExit = 1;
    }
-#line 1787 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1787 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 52:
@@ -1791,7 +1791,7 @@ yyreduce:
    {
       (yyval.n) = query_node((yyvsp[-3].n), (yyvsp[-1].n), (yyvsp[0].n));
    }
-#line 1795 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1795 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 53:
@@ -1799,7 +1799,7 @@ yyreduce:
    {
       (yyval.n) = insert_node((yyvsp[-2].sval), (yyvsp[0].n));
    }
-#line 1803 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1803 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 54:
@@ -1807,7 +1807,7 @@ yyreduce:
    {
       (yyval.n) = delete_node((yyvsp[-1].sval), (yyvsp[0].n));
    }
-#line 1811 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1811 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 55:
@@ -1815,7 +1815,7 @@ yyreduce:
    {
       (yyval.n) = update_node((yyvsp[-5].sval), (yyvsp[-3].n), (yyvsp[-1].n), (yyvsp[0].n));
    }
-#line 1819 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1819 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 56:
@@ -1823,7 +1823,7 @@ yyreduce:
    {
       (yyval.n) = prepend((yyvsp[-2].n), (yyvsp[0].n));
    }
-#line 1827 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1827 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 57:
@@ -1831,7 +1831,7 @@ yyreduce:
    {
       (yyval.n) = list_node((yyvsp[0].n));
    }
-#line 1835 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1835 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 58:
@@ -1839,7 +1839,7 @@ yyreduce:
    {
       (yyval.n) = attrtype_node((yyvsp[-4].sval), (yyvsp[-3].sval), (yyvsp[-1].ival), ATTR_SPEC_NONE);
    }
-#line 1843 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1843 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 59:
@@ -1847,7 +1847,7 @@ yyreduce:
    {
       (yyval.n) = attrtype_node((yyvsp[-6].sval), (yyvsp[-5].sval), (yyvsp[-3].ival), ATTR_SPEC_NOTNULL);
    }
-#line 1851 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1851 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 60:
@@ -1855,7 +1855,7 @@ yyreduce:
    {
       (yyval.n) = attrtype_node((yyvsp[-1].sval), NULL, 0, ATTR_SPEC_PRIMARYKEY);
    }
-#line 1859 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1859 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 62:
@@ -1863,7 +1863,7 @@ yyreduce:
    {
        (yyval.n) = list_node(relattr_node(NULL, (char*)"*"));
    }
-#line 1867 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1867 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 63:
@@ -1871,7 +1871,7 @@ yyreduce:
    {
       (yyval.n) = prepend((yyvsp[-2].n), (yyvsp[0].n));
    }
-#line 1875 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1875 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 64:
@@ -1879,7 +1879,7 @@ yyreduce:
    {
       (yyval.n) = list_node((yyvsp[0].n));
    }
-#line 1883 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1883 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 65:
@@ -1887,7 +1887,7 @@ yyreduce:
    {
       (yyval.n) = relattr_node((yyvsp[-2].sval), (yyvsp[0].sval));
    }
-#line 1891 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1891 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 66:
@@ -1895,7 +1895,7 @@ yyreduce:
    {
       (yyval.n) = relattr_node(NULL, (yyvsp[0].sval));
    }
-#line 1899 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1899 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 67:
@@ -1903,7 +1903,7 @@ yyreduce:
    {
       (yyval.n) = prepend((yyvsp[-2].n), (yyvsp[0].n));
    }
-#line 1907 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1907 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 68:
@@ -1911,7 +1911,7 @@ yyreduce:
    {
       (yyval.n) = list_node((yyvsp[0].n));
    }
-#line 1915 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1915 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 69:
@@ -1919,7 +1919,7 @@ yyreduce:
    {
       (yyval.n) = relation_node((yyvsp[0].sval));
    }
-#line 1923 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1923 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 70:
@@ -1927,7 +1927,7 @@ yyreduce:
    {
       (yyval.n) = (yyvsp[0].n);
    }
-#line 1931 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1931 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 71:
@@ -1935,7 +1935,7 @@ yyreduce:
    {
       (yyval.n) = NULL;
    }
-#line 1939 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1939 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 72:
@@ -1943,7 +1943,7 @@ yyreduce:
    {
       (yyval.n) = prepend((yyvsp[-2].n), (yyvsp[0].n));
    }
-#line 1947 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1947 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 73:
@@ -1951,7 +1951,7 @@ yyreduce:
    {
       (yyval.n) = list_node((yyvsp[0].n));
    }
-#line 1955 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1955 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 74:
@@ -1959,7 +1959,7 @@ yyreduce:
    {
       (yyval.n) = condition_node((yyvsp[-2].n), (yyvsp[-1].cval), (yyvsp[0].n));
    }
-#line 1963 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1963 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 75:
@@ -1967,7 +1967,7 @@ yyreduce:
    {
       (yyval.n) = condition_node((yyvsp[-2].n), ISNULL_OP, NULL);
    }
-#line 1971 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1971 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 76:
@@ -1975,7 +1975,7 @@ yyreduce:
    {
       (yyval.n) = condition_node((yyvsp[-3].n), NOTNULL_OP, NULL);
    }
-#line 1979 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1979 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 77:
@@ -1983,7 +1983,7 @@ yyreduce:
    {
       (yyval.n) = relattr_or_value_node((yyvsp[0].n), NULL);
    }
-#line 1987 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1987 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 78:
@@ -1991,7 +1991,7 @@ yyreduce:
    {
       (yyval.n) = relattr_or_value_node(NULL, (yyvsp[0].n));
    }
-#line 1995 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 1995 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 79:
@@ -1999,7 +1999,7 @@ yyreduce:
    {
       (yyval.n) = (yyvsp[-1].n);
    }
-#line 2003 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2003 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 80:
@@ -2007,7 +2007,7 @@ yyreduce:
    {
       (yyval.n) = prepend_list((yyvsp[-3].n), (yyvsp[0].n));
    }
-#line 2011 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2011 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 81:
@@ -2015,7 +2015,7 @@ yyreduce:
    {
       (yyval.n) = prepend((yyvsp[-2].n), (yyvsp[0].n));
    }
-#line 2019 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2019 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 82:
@@ -2023,7 +2023,7 @@ yyreduce:
    {
       (yyval.n) = list_node((yyvsp[0].n));
    }
-#line 2027 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2027 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 83:
@@ -2031,7 +2031,7 @@ yyreduce:
    {
       (yyval.n) = value_node(STRING, (void *) (yyvsp[0].sval));
    }
-#line 2035 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2035 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 84:
@@ -2039,7 +2039,7 @@ yyreduce:
    {
       (yyval.n) = value_node(INT, (void *)& (yyvsp[0].ival));
    }
-#line 2043 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2043 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 85:
@@ -2047,7 +2047,7 @@ yyreduce:
    {
       (yyval.n) = value_node(FLOAT, (void *)& (yyvsp[0].rval));
    }
-#line 2051 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2051 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 86:
@@ -2055,7 +2055,7 @@ yyreduce:
    {
       (yyval.n) = NULL;
    }
-#line 2059 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2059 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 87:
@@ -2063,7 +2063,7 @@ yyreduce:
    {
       (yyval.sval) = (yyvsp[0].sval);
    }
-#line 2067 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2067 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 88:
@@ -2071,7 +2071,7 @@ yyreduce:
    {
       (yyval.sval) = NULL;
    }
-#line 2075 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2075 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 89:
@@ -2079,7 +2079,7 @@ yyreduce:
    {
       (yyval.cval) = LT_OP;
    }
-#line 2083 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2083 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 90:
@@ -2087,7 +2087,7 @@ yyreduce:
    {
       (yyval.cval) = LE_OP;
    }
-#line 2091 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2091 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 91:
@@ -2095,7 +2095,7 @@ yyreduce:
    {
       (yyval.cval) = GT_OP;
    }
-#line 2099 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2099 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 92:
@@ -2103,7 +2103,7 @@ yyreduce:
    {
       (yyval.cval) = GE_OP;
    }
-#line 2107 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2107 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 93:
@@ -2111,7 +2111,7 @@ yyreduce:
    {
       (yyval.cval) = EQ_OP;
    }
-#line 2115 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2115 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
   case 94:
@@ -2119,11 +2119,11 @@ yyreduce:
    {
       (yyval.cval) = NE_OP;
    }
-#line 2123 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2123 "/root/DataBase4/cmake-build-debug/y.tab.cc"
     break;
 
 
-#line 2127 "/home/quanjunyuan/CLionProjects/DataBase4/cmake-build-debug/y.tab.cc"
+#line 2127 "/root/DataBase4/cmake-build-debug/y.tab.cc"
 
       default: break;
     }
