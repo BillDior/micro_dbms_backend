@@ -32,14 +32,16 @@ SM_Manager::~SM_Manager() {}
 RC SM_Manager::CreateDb(const char *dbName) {
   RC rc = OK_RC;
   //判断是否已经存在，是目录,return OK
-  std::string temp =
-      std::string("/root/Database4/cmake-build-debug/") + std::string(dbName);
+  std::string temp = std::string(dbName);
   const char *file_path = temp.c_str();
   // printf("path : %s \n", file_path);
   DIR *dir = opendir(file_path);
   if (NULL != dir) {
-    printf("There is a folder with the same name in the current directory. "
-           "Please try again after deleting or changing the database name. \n");
+    printf("Failed to create database %s, Please try again after changing the "
+           "database name \n",
+           dbName);
+    // printf("There is a folder with the same name in the current directory. "
+    //       "Please try again after changing the database name. \n");
     closedir(dir);
     return rc;
   }
