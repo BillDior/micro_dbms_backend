@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
 project(microDBMS)
 
-set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -m64 -O3 -g -Wall")
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -m64 -g -O3 -std=c++14 -Wall")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -m64 -O3 -Wall")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -m64 -O3 -std=c++14 -Wall")
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 
